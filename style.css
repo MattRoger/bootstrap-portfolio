@@ -1,0 +1,10 @@
+body{
+    background: blue;
+}
+
+
+.main{
+    background: #fff;
+    max-width: 969px;
+    margin: auto;
+}
