@@ -1,10 +1,33 @@
 body{
-    background: blue;
+    background-image:url('images/full-bloom.png');
 }
 
+header{
+    background:#fff;
+    border-bottom:5px solid #ccc;
+}
+
+.navbar-brand{
+    background:#4aaaa5;
+    color:#fff;
+}
+
+.nav-link{
+    color:#777;
+    border-right: 2px solid #ccc;
+    padding:0 15px 0 25px;
+}
+
+h2{
+ color:#4aaaa5;
+ border-bottom: 5px solid #ddd;
+ width:100%;
+}
 
 .main{
     background: #fff;
+    border: 2px solid #ddd;
     max-width: 969px;
-    margin: auto;
+    margin:5% auto;
+    padding:3%;    
 }
