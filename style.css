@@ -3,13 +3,13 @@ body{
 }
 
 header{
-    background:#fff;
     border-bottom:5px solid #ccc;
+    margin-bottom: 5%;
 }
 
 .navbar-brand{
     background:#4aaaa5;
-    color:#fff;
+ 
 }
 
 .nav-link{
@@ -20,14 +20,35 @@ header{
 
 h2{
  color:#4aaaa5;
- border-bottom: 5px solid #ddd;
  width:100%;
 }
 
 .main{
-    background: #fff;
-    border: 2px solid #ddd;
+    /* background: #fff;
+    
+
+         */
+
+}
+.outer-wraper{
     max-width: 969px;
-    margin:5% auto;
-    padding:3%;    
+    border: 2px solid #ddd;
+    margin:15% auto;
+    padding:1.5%;
+}
+.inner-wrap{
+    border-top:5px solid #ddd;
+    padding-top:3%;
+    margin-top:3%;
+}
+
+footer{
+    border-top:5px solid #4aaaa5;
+    background:#666;
+    padding-top:2em;
+}
+
+.outer-wraper{
+    width:960px;
+    margin:0 auto;
 }
