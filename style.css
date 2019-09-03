@@ -1,8 +1,25 @@
-/* header styles */
+/* color styles */
 
+
+
+/* header styles */
+.navbar-brand{
+    background:#59AAA5;
+}
 
 
 /* main content styles */
 .main-section{
     width:969px;
+    border:1px solid #ddd;
+}
+.section-title{
+    color:#59AAA5;
+    border-bottom: 3px solid #ddd;
+}
+
+/* footer */
+footer{
+    background:#666;
+    border-top:2px solid #59AAA5;
 }
