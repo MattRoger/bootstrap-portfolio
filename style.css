@@ -23,3 +23,12 @@ footer{
     background:#666;
     border-top:2px solid #59AAA5;
 }
+/* portfolio */
+.card-banner{
+    bottom:10%;
+    z-index: 10;
+}
+.card-body p{
+    background:#59AAA5;
+
+}
